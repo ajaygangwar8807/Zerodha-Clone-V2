@@ -1,6 +1,9 @@
 # Node / React / general ignores
 # See: https://help.github.com/articles/ignoring-files/
 
+# Node / React / general ignores
+# See: https://help.github.com/articles/ignoring-files/
+
 # dependencies
 node_modules/
 
@@ -29,7 +32,3 @@ Thumbs.db
 coverage/
 logs/
 *.log
-
-# Ignore any nested git repo folders (safety)
-dashboard/.git
-frontend/.git
