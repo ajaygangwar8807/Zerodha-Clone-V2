@@ -1,0 +1,35 @@
+# Node / React / general ignores
+# See: https://help.github.com/articles/ignoring-files/
+
+# dependencies
+node_modules/
+
+# production
+build/
+dist/
+
+# dotenv
+.env
+
+# log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+/.idea/
+
+# miscellaneous
+.cache/
+coverage/
+logs/
+*.log
+
+# Ignore any nested git repo folders (safety)
+dashboard/.git
+frontend/.git
